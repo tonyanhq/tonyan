@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^tt-8.com [NC]
+RewriteRule ^(.*)$ http://www.tt-8.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www.pikatao.com [NC]
+RewriteRule ^(.*)$ http://www.tt-8.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^pikatao.com [NC]
+RewriteRule ^(.*)$ http://www.tt-8.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^blog.pikatao.com [NC]
+RewriteRule ^(.*)$ http://blog.tt-8.com/$1 [L,R=301]
