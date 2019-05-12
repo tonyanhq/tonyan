@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+
+<head>
     <title>Tony An - Official Website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <meta name="description" content="tony an's website">
     <style>
-
         @keyframes zoom {
-            0% { transform:scale(1,1); }
-            50% { transform:scale(1.1,1.1); }
+            0% {
+                transform: scale(1, 1);
+            }
+            50% {
+                transform: scale(1.1, 1.1);
+            }
             100% {
-                transform:scale(1,1);
+                transform: scale(1, 1);
             }
         }
-
+        
         .bg {
             background: url("images/slt-bw.jpg") repeat center center / cover #4A4A4A;
             height: 100%;
@@ -22,17 +27,17 @@
             width: 100%;
             /*animation: zoom 20s linear infinite;*/
         }
-
+        
         body {
             font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
             color: #fff;
             margin: 0;
         }
-
+        
         .none {
             display: none;
         }
-
+        
         #wrapper {
             position: absolute;
             width: 320px;
@@ -42,7 +47,7 @@
             margin-left: -160px;
             margin-top: -160px
         }
-
+        
         h1 {
             font-weight: 700;
             font-size: 30px;
@@ -50,34 +55,36 @@
             text-transform: uppercase;
             margin: 12px 0 15px 0
         }
-
+        
         h2 {
             font-weight: normal;
             font-size: 13px;
             letter-spacing: 1px;
             margin: 0 0 15px 0
         }
-
+        
         h3 {
             font-weight: normal;
             font-size: 11px;
             letter-spacing: 1px;
             margin: 0 0 30px 0
         }
-
-        h1, h2, h3 {
+        
+        h1,
+        h2,
+        h3 {
             position: relative;
             left: 4px;
             text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
         }
-
+        
         p {
             font-size: 14px;
             line-height: 2em;
             margin: 0;
             letter-spacing: 2px
         }
-
+        
         canvas {
             position: absolute;
             top: 0;
@@ -86,52 +93,57 @@
             width: 100%;
             height: 100%
         }
-
+        
         a {
             color: #fff;
             text-decoration: none;
             text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
         }
-
-        #mii{
+        
+        #mii {
             font-size: 12px;
             margin-top: 20px;
         }
-
-        ::selection {
+        
+         ::selection {
             color: #000;
             background: #fff;
             text-shadow: none;
         }
-
-        ::-moz-selection {
+        
+         ::-moz-selection {
             color: #000;
             background: #fff;
             text-shadow: none;
         }
-        p img{
+        
+        p img {
             width: 100px;
             margin: 20px 110px 0;
             position: absolute;
             display: none;
         }
-        p:hover img{
+        
+        p:hover img {
             display: block;
         }
     </style>
 </head>
+
 <body>
-<div class="bg"></div>
-<div id="wrapper">
-    <h1><a href="https://tonyan.me/">Tony An</a></h1>
-    <h2>Founder @ <a href="https://fimhq.com/" target="_blank" title="Go to FIM">FIM</a></h2>
-    <p>-</p>
-    <p><a href="https://twitter.com/tonyanhq/" target="_blank">Twitter</a></p>
-    <p><a href="https://www.instagram.com/tonyanhq/" target="_blank">Instagram</a></p>
-    <p><a href="mailto:wowmyladygaga@gmail.com" target="_blank">Mail</a></p>
-    <p><a href="javascript:;">WeChat<img src="images/qrcode.png" alt=""/></a></p>
-</div>
+    <div class="bg"></div>
+    <div id="wrapper">
+        <h1><a href="https://tonyan.me/">Tony An</a></h1>
+        <h2>Founder @ <a href="https://fimhq.com/" target="_blank" title="Go to FIM">FIM</a></h2>
+        <p>-</p>
+        <p><a href="https://twitter.com/tonyanhq/" target="_blank">Twitter</a></p>
+        <p><a href="https://www.instagram.com/tonyanhq/" target="_blank">Instagram</a></p>
+        <p><a href="mailto:taotao9229@gmail.com" target="_blank">Mail</a></p>
+        <p><a href="javascript:;">WeChat<img src="images/qrcode.png" alt=""/></a></p>
+    </div>
 
-<div class="none"></div>
+    <div class="none"></div>
 
-</body></html>
+</body>
+
+</html>
